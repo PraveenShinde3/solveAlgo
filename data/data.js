@@ -13,9 +13,19 @@ export const data = {
           link: "https://leetcode.com/problems/range-sum-query-immutable/",
         },
         {
+          name: "Find Pivot Index",
+          difficulty: "Easy",
+          link: "https://leetcode.com/problems/find-pivot-index/",
+        },
+        {
           name: "Subarray Sum Equals K",
           difficulty: "Medium",
           link: "https://leetcode.com/problems/subarray-sum-equals-k/",
+        },
+        {
+          name: "XOR Queries of a Subarray",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/xor-queries-of-a-subarray/description/",
         },
         {
           name: "Contiguous Array",
@@ -23,9 +33,9 @@ export const data = {
           link: "https://leetcode.com/problems/contiguous-array/",
         },
         {
-          name: "Find Pivot Index",
-          difficulty: "Easy",
-          link: "https://leetcode.com/problems/find-pivot-index/",
+          name: "Subarray Sums Divisible by K",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/subarray-sums-divisible-by-k/description/",
         },
         {
           name: "Range Sum Query 2D - Immutable",
@@ -64,12 +74,22 @@ export const data = {
         {
           name: "Container With Most Water",
           difficulty: "Medium",
+          link: "https://leetcode.com/problems/trapping-rain-water/",
+        },
+        {
+          name: "Trapping Rain Water",
+          difficulty: "Hard",
           link: "https://leetcode.com/problems/container-with-most-water/",
         },
         {
           name: "Remove Duplicates from Sorted Array",
           difficulty: "Easy",
           link: "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
+        },
+        {
+          name: "Reverse String",
+          difficulty: "Easy",
+          link: "https://leetcode.com/problems/reverse-string/description/",
         },
         {
           name: "Valid Palindrome",
@@ -96,11 +116,6 @@ export const data = {
       },
       questions: [
         {
-          name: "Minimum Window Substring",
-          difficulty: "Hard",
-          link: "https://leetcode.com/problems/minimum-window-substring/",
-        },
-        {
           name: "Longest Substring Without Repeating Characters",
           difficulty: "Medium",
           link: "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
@@ -116,11 +131,6 @@ export const data = {
           link: "https://leetcode.com/problems/find-all-anagrams-in-a-string/",
         },
         {
-          name: "Subarrays with K Different Integers",
-          difficulty: "Hard",
-          link: "https://leetcode.com/problems/subarrays-with-k-different-integers/",
-        },
-        {
           name: "Longest Repeating Character Replacement",
           difficulty: "Medium",
           link: "https://leetcode.com/problems/longest-repeating-character-replacement/",
@@ -129,6 +139,31 @@ export const data = {
           name: "Grumpy Bookstore Owner",
           difficulty: "Medium",
           link: "https://leetcode.com/problems/grumpy-bookstore-owner/",
+        },
+        {
+          name: "Substrings of Size Three with Distinct Characters",
+          difficulty: "Easy",
+          link: "https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/",
+        },
+        {
+          name: "Maximum Number of Vowels in a Substring of Given Length",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/",
+        },
+        {
+          name: "Maximum Number of Occurrences of a Substring",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/",
+        },
+        {
+          name: "Maximum Average Subarray I",
+          difficulty: "Easy",
+          link: "https://leetcode.com/problems/maximum-average-subarray-i/",
+        },
+        {
+          name: "Maximum Points You Can Obtain from Cards",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/",
         },
       ],
     },
@@ -145,9 +180,29 @@ export const data = {
           link: "https://leetcode.com/problems/linked-list-cycle/",
         },
         {
+          name: "Palindrome Linked List",
+          difficulty: "Easy",
+          link: "https://leetcode.com/problems/palindrome-linked-list/",
+        },
+        {
           name: "Find the Duplicate Number",
           difficulty: "Medium",
           link: "https://leetcode.com/problems/find-the-duplicate-number/",
+        },
+        {
+          name: "Remove Nth Node From End of List",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+        },
+        {
+          name: "Rotate List",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/rotate-list/",
+        },
+        {
+          name: "Reorder List",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/reorder-list/",
         },
       ],
     },
@@ -187,6 +242,36 @@ export const data = {
           difficulty: "Medium",
           link: "https://leetcode.com/problems/daily-temperatures/",
         },
+        {
+          name: "Daily Temperatures",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/daily-temperatures/",
+        },
+        {
+          name: "Next Greater Element I",
+          difficulty: "Easy",
+          link: "https://leetcode.com/problems/next-greater-element-i/",
+        },
+        {
+          name: "Next Greater Element II",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/next-greater-element-ii/",
+        },
+        {
+          name: "Largest Rectangle in Histogram",
+          difficulty: "Hard",
+          link: "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+        },
+        {
+          name: "Sum of Subarray Minimums",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/sum-of-subarray-minimums/",
+        },
+        {
+          name: "Next Greater Node In Linked List",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/next-greater-node-in-linked-list/",
+        },
       ],
     },
     {
@@ -206,19 +291,30 @@ export const data = {
           difficulty: "Medium",
           link: "https://leetcode.com/problems/kth-largest-element-in-an-array/",
         },
-      ],
-    },
-    {
-      name: "Quick Select",
-      article: {
-        name: "Quick Select Algorithm - GeeksforGeeks",
-        link: "https://www.geeksforgeeks.org/quickselect-algorithm/",
-      },
-      questions: [
         {
-          name: "Kth Largest Element in an Array",
+          name: "K Closest Points to Origin",
           difficulty: "Medium",
-          link: "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+          link: "https://leetcode.com/problems/k-closest-points-to-origin/",
+        },
+        {
+          name: "Kth Smallest Element in a Sorted Matrix",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/",
+        },
+        {
+          name: "Sort Characters By Frequency",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/sort-characters-by-frequency/",
+        },
+        {
+          name: "Kth Largest Element in a Stream",
+          difficulty: "Easy",
+          link: "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+        },
+        {
+          name: "Kth Largest Number After Deleting Some Digits",
+          difficulty: "Hard",
+          link: "https://leetcode.com/problems/kth-largest-number-after-deleting-some-digits/",
         },
       ],
     },
@@ -239,6 +335,26 @@ export const data = {
           difficulty: "Medium",
           link: "https://leetcode.com/problems/insert-interval/",
         },
+        {
+          name: "Minimum Number of Arrows to Burst Balloons",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/",
+        },
+        {
+          name: "Interval List Intersections",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/interval-list-intersections/",
+        },
+        {
+          name: "Employee Free Time",
+          difficulty: "Hard",
+          link: "https://leetcode.com/problems/employee-free-time/",
+        },
+        {
+          name: "Meeting Rooms II",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/meeting-rooms-ii/",
+        },
       ],
     },
     {
@@ -257,6 +373,31 @@ export const data = {
           name: "Search in Rotated Sorted Array",
           difficulty: "Medium",
           link: "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+        },
+        {
+          name: "Peak Index in a Mountain Array",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/peak-index-in-a-mountain-array/",
+        },
+        {
+          name: "Find Peak Element",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/find-peak-element/",
+        },
+        {
+          name: "Koko Eating Bananas",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/koko-eating-bananas/",
+        },
+        {
+          name: "Search in a Sorted Array of Unknown Size",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/",
+        },
+        {
+          name: "Capacity To Ship Packages Within D Days",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/",
         },
       ],
     },
@@ -277,6 +418,36 @@ export const data = {
           difficulty: "Medium",
           link: "https://leetcode.com/problems/number-of-islands/",
         },
+        {
+          name: "Clone Graph",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/clone-graph/",
+        },
+        {
+          name: "Longest Increasing Path in a Matrix",
+          difficulty: "Hard",
+          link: "https://leetcode.com/problems/longest-increasing-path-in-a-matrix/",
+        },
+        {
+          name: "Surrounded Regions",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/surrounded-regions/",
+        },
+        {
+          name: "Pacific Atlantic Water Flow",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/pacific-atlantic-water-flow/",
+        },
+        {
+          name: "Path Sum II",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/path-sum-ii/",
+        },
+        {
+          name: "Word Search",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/word-search/",
+        },
       ],
     },
     {
@@ -295,6 +466,31 @@ export const data = {
           name: "Word Ladder",
           difficulty: "Hard",
           link: "https://leetcode.com/problems/word-ladder/",
+        },
+        {
+          name: "Minimum Depth of Binary Tree",
+          difficulty: "Easy",
+          link: "https://leetcode.com/problems/minimum-depth-of-binary-tree/",
+        },
+        {
+          name: "Rotting Oranges",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/rotting-oranges/",
+        },
+        {
+          name: "Shortest Path in Binary Matrix",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/shortest-path-in-binary-matrix/",
+        },
+        {
+          name: "Course Schedule",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/course-schedule/",
+        },
+        {
+          name: "Open the Lock",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/open-the-lock/",
         },
       ],
     },
@@ -315,6 +511,46 @@ export const data = {
           difficulty: "Medium",
           link: "https://leetcode.com/problems/set-matrix-zeroes/",
         },
+        {
+          name: "Rotate Image",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/rotate-image/",
+        },
+        {
+          name: "Word Search",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/word-search/",
+        },
+        {
+          name: "Number of Islands",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/number-of-islands/",
+        },
+        {
+          name: "Diagonal Traverse",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/diagonal-traverse/",
+        },
+        {
+          name: "Max Area of Island",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/max-area-of-island/",
+        },
+        {
+          name: "Search a 2D Matrix",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/search-a-2d-matrix/",
+        },
+        {
+          name: "Flood Fill",
+          difficulty: "Easy",
+          link: "https://leetcode.com/problems/flood-fill/",
+        },
+        {
+          name: "Path With Minimum Effort",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/path-with-minimum-effort/",
+        },
       ],
     },
     {
@@ -325,14 +561,54 @@ export const data = {
       },
       questions: [
         {
+          name: "Permutations",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/permutations/",
+        },
+        {
+          name: "Combinations",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/combinations/",
+        },
+        {
+          name: "Subsets",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/subsets/",
+        },
+        {
           name: "N-Queens",
           difficulty: "Hard",
           link: "https://leetcode.com/problems/n-queens/",
         },
         {
+          name: "N-Queens II",
+          difficulty: "Hard",
+          link: "https://leetcode.com/problems/n-queens-ii/",
+        },
+        {
+          name: "Letter Combinations of a Phone Number",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+        },
+        {
+          name: "Palindrome Partitioning",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/palindrome-partitioning/",
+        },
+        {
           name: "Combination Sum",
           difficulty: "Medium",
           link: "https://leetcode.com/problems/combination-sum/",
+        },
+        {
+          name: "Combination Sum II",
+          difficulty: "Medium",
+          link: "https://leetcode.com/problems/combination-sum-ii/",
+        },
+        {
+          name: "Solve N-Queens",
+          difficulty: "Hard",
+          link: "https://leetcode.com/problems/n-queens/",
         },
       ],
     },

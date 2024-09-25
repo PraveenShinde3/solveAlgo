@@ -1,5 +1,6 @@
 import LandingPage from "@/components/custom-ui/LandingPage";
 import AlgoAccordion from "@/components/custom-ui/AlgoAccordion";
+import QuestionsCard from "@/components/custom-ui/QuestionsCard";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <main className=" container flex flex-col  items-center justify-center ">
         <div className="sm:w-10/12 lg:w-7/12 xl:w-5/12 sm:px-8">
           <LandingPage />
+          <QuestionsCard />
           <AlgoAccordion />
         </div>
 

@@ -20,8 +20,10 @@ const AlgoAccordion = () => {
     // console.log(data);
     let count = 0;
     return (
-        <div className="py-12 w-full">
+        <div className="pt-8 w-full">
+            <h1 className="pb-4 text-center">Algorithms</h1>
             <div className="bg-[#F8F8F8] p-2 rounded-3xl w-full">
+
                 <Accordion type="single" collapsible className="flex flex-col gap-2">
                     {data.topics.map((item) => {
                         count++;
@@ -45,7 +47,7 @@ const AlgoAccordion = () => {
                                                         <TableRow key={question.name}>
                                                             <TableCell className="font-medium">{question.name}</TableCell>
                                                             <TableCell>{question.difficulty}</TableCell>
-                                                            <TableCell className="text-right"><a href={question.link} className="hover:underline underline-offset-4 flex gap-1 items-center">leetcode<ArrowTopRightIcon /></a></TableCell>
+                                                            <TableCell className="text-right"><a href={question.link} target="_blank" className="hover:underline underline-offset-4 flex gap-1 items-center">leetcode<ArrowTopRightIcon /></a></TableCell>
                                                         </TableRow>
                                                     )
                                                 })}
