@@ -5,7 +5,7 @@ const landingPage = () => {
         <div className=" w-full flex flex-col items-center ">
             <div >
                 <h1 className="text-3xl ">
-                    Solve <span className="opacity-50">the core of coding</span>{" "}
+                    Solved <span className="opacity-50">the core of coding</span>{" "}
                     <span className=" underline underline-offset-4 ">Algorithms</span>, <span className="opacity-50">not just the hyped</span>{" "}
                     Questions.
                 </h1>
