@@ -14,14 +14,13 @@ import {
 } from "@/components/ui/table"
 import { ArrowTopRightIcon } from "@radix-ui/react-icons";
 
-import { data } from "@/data/data.js";
 
-const AlgoAccordion = () => {
-    // console.log(data);
+const CustomAccordion = ({ data, title, questions }) => {
+    // console.log(algoData);
     let count = 0;
     return (
         <div className="pt-8 w-full">
-            <h1 className="pb-4 text-center">Algorithms</h1>
+            {title && <h1 className="pb-4 text-center font-medium">{title} | {questions} Questions</h1>}
             <div className="bg-[#F8F8F8] p-2 rounded-3xl w-full">
 
                 <Accordion type="single" collapsible className="flex flex-col gap-2">
@@ -31,7 +30,7 @@ const AlgoAccordion = () => {
                             <AccordionItem key={item.name} value={item.name}>
                                 <AccordionTrigger>{count}. {item.name}</AccordionTrigger>
                                 <AccordionContent>
-                                    <p className="px-1 flex gap-1 items-center">Article : <a href={item.article.link} target="_blank" className="hover:underline underline-offset-4">{item.article.name}</a><ArrowTopRightIcon /></p>
+                                    {item?.article && <p className="px-1 flex gap-1 items-center">Article : <a href={item.article.link} target="_blank" className="hover:underline underline-offset-4">{item.article.name}</a><ArrowTopRightIcon /></p>}
                                     <div className="pt-2">
                                         <Table >
                                             <TableHeader>
@@ -63,4 +62,4 @@ const AlgoAccordion = () => {
     );
 };
 
-export default AlgoAccordion;
+export default CustomAccordion;
