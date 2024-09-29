@@ -23,7 +23,7 @@ const QuestionsCard = () => {
                 </div>
 
                 <div className='group bg-white rounded-2xl h-28 flex-1 hover:scale-[1.015]  transition-all cursor-pointer'>
-                    <Link href={'/blind-75-leetcode'} className='flex-1'>
+                    <Link href={'/must-do-leetcode-questions'} className='flex-1'>
                         <div className='p-4 h-full flex flex-col justify-between'>
                             <div className='flex gap-2 items-start '>
                                 <RxTarget className='text-3xl' />
@@ -36,7 +36,7 @@ const QuestionsCard = () => {
                     </Link>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
