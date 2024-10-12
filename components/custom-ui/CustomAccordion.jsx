@@ -28,7 +28,24 @@ const CustomAccordion = ({
     doUpdateProgress(questionName, isCompleted);
   };
 
-  const checkedCount = Object.values(completedData).filter(Boolean).length;
+  const findCommonQuestions = (data, questions1) => {
+    console.log(questions1);
+    const questionNames1 = questions1.map((q) => q.question);
+    console.log(questionNames1);
+    let commonCount = 0;
+
+    data.topics.forEach((topic) => {
+      topic.questions.forEach((question) => {
+        if (questionNames1.includes(question.name)) {
+          commonCount++;
+        }
+      });
+    });
+
+    return commonCount;
+  };
+
+  const checkedCount = findCommonQuestions(data, completedData);
 
   return (
     <div className="pt-6 w-full">
