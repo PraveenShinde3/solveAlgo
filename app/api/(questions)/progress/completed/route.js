@@ -1,8 +1,10 @@
 import User from "../../../../../lib/modals/users.modal.js";
 import { NextResponse } from "next/server";
 import { verifyToken } from "@/lib/middleware/auth.middleware.js";
+import connectDB from "@/lib/db.js";
 
 export const POST = async (req) => {
+  await connectDB();
   // Verify the JWT token
   const user = await verifyToken(req);
 

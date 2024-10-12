@@ -1,8 +1,10 @@
 import { verifyToken } from "@/lib/middleware/auth.middleware.js";
 import User from "../../../../../lib/modals/users.modal.js";
 import { NextResponse } from "next/server";
+import connectDB from "@/lib/db.js";
 
 export const POST = async (request) => {
+  await connectDB();
   const user = await verifyToken(request);
   // console.log(user);
   if (!user) {
