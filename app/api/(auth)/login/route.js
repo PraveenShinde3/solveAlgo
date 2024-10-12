@@ -1,10 +1,11 @@
 import { NextResponse } from "next/server";
 import User from "@/lib/modals/users.modal.js";
 import { generateRefreshAndAccessToken } from "@/lib/utils/auth.utils.js";
+import connectDB from "@/lib/db";
 
 export const POST = async (req) => {
-
   try {
+    await connectDB();
     const { username, password } = await req.json();
 
     if (!username || !password) {

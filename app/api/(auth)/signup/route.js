@@ -1,9 +1,11 @@
 import { NextResponse } from "next/server";
 import User from "@/lib/modals/users.modal";
+import connectDB from "@/lib/db";
 
 // POST request for login
 export async function POST(request) {
   try {
+    await connectDB();
     const { username, email, password } = await request.json();
 
     const userExisted = await User.findOne({ $or: [{ email }, { username }] });
