@@ -5,7 +5,7 @@ import { NextResponse } from "next/server";
 export const GET = async () => {
   try {
     await connectDB();
-    const users = await User.find();
+    const users = await User.find().select("-password");
     return NextResponse.json({
       success: true,
       message: "Users fetched successfully",
@@ -43,7 +43,10 @@ export const DELETE = async (request) => {
   try {
     const { id } = await request.json();
     await connectDB();
-    const user = await User.findByIdAndDelete(id);
+    const user = await User.findByIdAndDelete(id).select(
+      "-password",
+      "-refreshToken"
+    );
     if (!user) {
       return NextResponse.json({
         success: false,

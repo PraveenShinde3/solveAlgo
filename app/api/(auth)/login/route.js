@@ -18,7 +18,9 @@ export const POST = async (req) => {
       );
     }
 
-    const user = await User.findOne({ username: username });
+    const user = await User.findOne({ username: username }).select(
+      "-password -refreshToken"
+    );
 
     // console.log("login/route.js line-23", user);
     if (!user) {

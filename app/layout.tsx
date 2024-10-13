@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Toaster } from "@/components/ui/toaster";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 const geistSans = localFont({
@@ -36,6 +37,7 @@ export default function RootLayout({
             <Toaster />
           </main>
         </div>
+        <Analytics />
       </body>
     </html>
   );
